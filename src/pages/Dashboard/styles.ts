@@ -254,7 +254,7 @@ export const Calendar = styled.aside`
 
   .DayPicker-Day--selected {
     background: #ff9000 !important;
-    border-radius: 10px;
+    border-radius: 11px;
     color: #232129 !important;
   }
 `;
