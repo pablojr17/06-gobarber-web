@@ -22,20 +22,20 @@ export const Container = styled.div<ContainerProps>`
     margin-top: 8px;
   }
 
-  ${(props) =>
-    props.isFilled &&
+  ${props =>
+    props.isErrored &&
     css`
-      color: #c53030;
+      border-color: #c53030;
     `}
 
-  ${(props) =>
+  ${props =>
     props.isFocused &&
     css`
       color: #ff9000;
       border-color: #ff9000;
     `}
 
-  ${(props) =>
+  ${props =>
     props.isFilled &&
     css`
       color: #ff9000;
